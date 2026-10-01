@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+out/
+assets_cache/
+samples/*/*.jpg
+samples/*/*.jpeg
+samples/*/*.png
+.pytest_cache/
+*.log
+# C# migration: native/model binaries and disposable verification data
+.packages/
+**/bin/
+**/obj/
+native/
+data-dotnet/
+evidence/
+publish/
+node_modules/
+publication/

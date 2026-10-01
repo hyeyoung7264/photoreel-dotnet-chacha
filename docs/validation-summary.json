@@ -1,0 +1,56 @@
+{
+  "tokenizer": {
+    "cases": 29,
+    "passed": 29
+  },
+  "clean_publish": {
+    "self_contained": true,
+    "browser": true,
+    "python_on_path": false,
+    "restart": true,
+    "children": [
+      "conhost.exe",
+      "ffmpeg.exe"
+    ],
+    "dotnet_on_path": false
+  },
+  "python_reference": {
+    "fixtures": 10,
+    "executed": false,
+    "stored_plan_exact": true
+  },
+  "limitations": [
+    "Unannotated face/model accuracy",
+    "Human aesthetic/music listening review pending",
+    "Real-camera HEIC corpus absent",
+    "One full-resolution aspect; other ratios at reduced resolution",
+    "No fresh Windows VM test"
+  ],
+  "status": "implementation verified; focused independent review pending; no remote publication",
+  "models": {
+    "depth": {
+      "width": 518,
+      "height": 392,
+      "min": 0,
+      "max": 1
+    },
+    "yunet": "yunet",
+    "clip": "clip",
+    "norm": 1.0000000026770643,
+    "embedding": 512
+  },
+  "tests": {
+    "skipped": 0,
+    "failed": 0,
+    "passed": 196,
+    "total": 196
+  },
+  "private": {
+    "photos_rendered": 8,
+    "originals_preserved": 19,
+    "external_transmission": false,
+    "exports": 25,
+    "groups": 3,
+    "decode_failures": 0
+  }
+}
