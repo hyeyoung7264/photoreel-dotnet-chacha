@@ -41,9 +41,11 @@
   },
   "tests": {
     "skipped": 0,
-    "failed": 0,
-    "passed": 196,
-    "total": 196
+    "passed": 199,
+    "total": 199,
+    "reproducible_categories": 197,
+    "opt_in_reference_private": 2,
+    "failed": 0
   },
   "private": {
     "photos_rendered": 8,
@@ -52,5 +54,25 @@
     "exports": 25,
     "groups": 3,
     "decode_failures": 0
+  },
+  "clip_cache": {
+    "maximum_disk_bytes": 8589934592,
+    "requested_seconds": 3,
+    "height": 1920,
+    "width": 1080,
+    "regression_cases": 3,
+    "actual_frames": [
+      30,
+      90
+    ],
+    "decode": true,
+    "actual_bytes": [
+      186624000,
+      559872000
+    ],
+    "failure_cleanup_and_retry": true,
+    "stream_buffer_bytes": 65536,
+    "fps": 30,
+    "renderer_replacement": true
   }
 }
