@@ -24,9 +24,10 @@
     "Human aesthetic/music listening review pending",
     "Real-camera HEIC corpus absent",
     "One full-resolution aspect; other ratios at reduced resolution",
-    "No fresh Windows VM test"
+    "No fresh Windows VM test",
+    "Video adapter cancellation takes effect after synchronous decode returns"
   ],
-  "status": "implementation verified; focused independent review pending; no remote publication",
+  "status": "implementation verified; final focused independent review CLEAN",
   "models": {
     "depth": {
       "width": 518,
@@ -74,5 +75,17 @@
     "stream_buffer_bytes": 65536,
     "fps": 30,
     "renderer_replacement": true
+  },
+  "independent_review": {
+    "source_commit": "88f69b54fbca1949024e3bd253ce7571ec9ff94f",
+    "publication_blockers": 0,
+    "published_dll_tests_passed": 1,
+    "source_tests_passed": 7,
+    "publication_commit": "a8ace92d9bd213af36e4967ca12debd35896a3b2",
+    "application_code_unchanged_after_review": true
+  },
+  "artifacts": {
+    "apphost_exe_sha256": "BA4CD6C1744A7374D5D5BC2D90549C95F5E3E68679BB5A9EE8EF6209AFB9CD9C",
+    "application_dll_sha256": "0E78212ED5BAD19EF3A344D9A9C67D9E49E4C8C3A64BEF0B3AA46DBCD8900114"
   }
 }
